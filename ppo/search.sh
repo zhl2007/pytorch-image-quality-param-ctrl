@@ -1,5 +1,10 @@
 #!/bin/sh
 
+rm -rf imgs
+rm -rf trained_models
+mkdir imgs
+mkdir trained_models
+
 cd usb_py_env
 sh make.sh
 cd -

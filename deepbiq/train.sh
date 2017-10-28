@@ -1,5 +1,9 @@
 #!/bin/sh
 
+rm -rf dataset
+mkdir -p dataset/train
+mkdir -p dataset/val
+
 #fine-tuned alexnet
 rm checkpoint.pth.tar -rf
 rm model_best.pth.tar -rf
