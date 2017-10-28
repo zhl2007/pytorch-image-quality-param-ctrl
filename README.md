@@ -1,4 +1,4 @@
-#pytorch-image-quality-param-ctrl
+# pytorch-image-quality-param-ctrl
 
 PyTorch implementation of
 * DeepBIQ(https://arxiv.org/pdf/1602.05531.pdf)
@@ -18,7 +18,7 @@ Contributions are very welcome. If you know how to make this code better, don't 
     for example: very dark, very bright, very saturated images and so on 
     to train DeepBIQ model
 
-##warning
+## warning
 you should save your usb camera default quality param
 ```commandline
 v4l2-ctl --get-ctrl brightness
